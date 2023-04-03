@@ -189,6 +189,10 @@ main div a img{
     padding: 0;
 }
 
+.card-text{
+    font-family: 'Arial', sans-serif;
+    font-size: 1.4em;
+}
 /* Monumentos y museos*/
 
 .title h1{
@@ -214,7 +218,7 @@ main div a img{
     justify-content: space-between;
     height: auto;
     font-family: 'Arial', sans-serif;
-    font-size: 1em;
+    font-size: 1.4em;
 }
 
 article.monumentos div.card-body a.ctn{
@@ -635,16 +639,28 @@ footer div a{
 
 @media screen and (max-width:768px){
     /* pages */
+
     .nav{
         padding: 0;
     }
-    .nav .links-pages{
-        display: none;
-    }
+
+        .nav .links-pages{
+            display: none;
+        }
+
+        .nav .img-logo{
+            width: 70px;
+            height: 70px;
+            margin: 0 auto;
+
+        }
+
     /* Index */
+
     .header-home{
         align-items: center;
     }
+
     .header-content{
         display: flex;
         align-items: center;
@@ -652,6 +668,7 @@ footer div a{
         flex-direction: column;
         margin: 0;
     }
+
         .header-content h2{
             margin: 0 auto;
         }
@@ -666,36 +683,21 @@ footer div a{
         .navbar-home .links-home{
             display: none;
         }
-
-    .img-logo{
-        top: 20px;
-        left: 20px;
-        justify-content: center;
-    }
     
-    .mobile-menu{
-        margin-top: 0px;
-    }   
-        
-    .menu-btn{
-        display: block;
+    /* Carousel */
+    .img-carousel{
+        width: 1920px;
+        height: 500px;
+
+    }
+
+    .carousel-item .ctn{
+        padding: 10px 30px;
+        margin-bottom: 10px;
     }
 
     /* section 1*/
-    .row{
-        flex-direction: column;
-    }
-
-        .row .col p{
-            margin: 0;
-            font-size: 1.8em;
-            padding: 0 40px;
-        }
-        
-        .row figure.col{
-            margin-top: 30px;
-            
-        }
+    
     .col img{
         max-width: 90%;
     }
@@ -704,9 +706,22 @@ footer div a{
         margin-top: 20px;
         padding: 15px 30px;
     }
+
+    .events h1.title{
+        font-size: 2.5em;
+    }
+
+    .events article div p{
+        font-family: 'Arial', sans-serif;
+    }
+        
     /* section 2 */
     .explore-content{
         width: 100%;
+    }
+    
+    .explore h3{
+        font-size: 3.5em;
     }
 
     article .row{
@@ -765,10 +780,14 @@ footer div a{
         padding: 10px;
     }
     /* start que hacer */
+    .container div.card{
+        margin: 0;
+    }
 
     .intro-qh .title{
         font-size: 2.5em;
     }
+
     .p-qh{
         font-size: 1.5em;
         margin: 0 40px;
@@ -776,8 +795,12 @@ footer div a{
         text-align: justify;
     }
 
-        .p-qh .text-center{
+        p.p-qh .text-center{
             display: none;
+        }
+    
+        .card-body .title-p{
+            font-size: 2em;
         }
     .ctn-qh{
         display: flex;
@@ -815,15 +838,32 @@ footer div a{
         'fotu'
         'fotv';
     }
+    main div iframe{
+        filter: none;
+    }
+        main div a img{
+            filter: none;
+        }
+        main div a video{
+            filter: none;
+        }
+
+
+    
     /* end galeria */
     /* Monumentos */
     .monumentos p{
-        font-size: 1.2em;
+        font-size: 1.3em;
 
     }
     /* end monumentos */
-}
-@media screen and (max-width: 992px) {
-    
+    /* start contacto */
+    .contacto div p{
+        text-align: justify;
+    }
 
+    .contacto article div .centro-turista{
+        font-size: 1em;
+    }
+    /* end contacto */
 }
