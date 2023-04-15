@@ -1,6 +1,10 @@
 // resposive
 @media screen and (max-width:768px){
     /* pages */
+    .banner-header{
+        width: 100%;
+        height: 30vh;
+    }
 
     .nav{
         padding: 0;
@@ -47,11 +51,10 @@
     .carousel-item {
         .img-carousel{
             width: 1920px;
-            height: 500px;
+            height: 300px;
         }
         .ctn{
-            padding: 10px 30px;
-            margin-bottom: 10px; 
+            display: $displayNone; 
         }
     }
 
@@ -67,14 +70,13 @@
             }
         }
         h1{
-            .title{
-                font-size: 2.5em;
-            }
+            font-size: 2.5em;
         }
         article{
             div{
                 p{
                     font-family: $secondaryFont;
+                    text-align: justify;
                 }
             }
         }
@@ -83,12 +85,13 @@
     /* section 2 */
     .explore{
         h3{
-            font-size: 3.5em;
+            font-size: 3em;
+            text-align: center;
         }
         .explore-content{
             width: 100%;
             p{
-                font-size: 1.8em;
+                font-size: 1.6em;
             }
             .ctn{
                 padding: 15px 30px;
@@ -100,6 +103,7 @@
     /* section 3 */
 
     .section-home{
+        width: 100%;
         .row{
             padding: 0;
             width: 80%;
@@ -113,12 +117,12 @@
                 }
             }    
             h3{
-                font-size: 4em;
+                font-size: 3em;
             }
             p{
                 padding: 0;
                 text-align: center;
-                font-size: 1.8em;
+                font-size: 1.5em;
                 justify-content: $justifycontentCenter;
                 text-align: justify;
                 margin: 20px 0;
@@ -126,7 +130,7 @@
             .col{
                 width:100%;
                 img{
-                    max-width: 90%;
+                    max-width: 100%;
                 }
                 .image-gallery{
                     justify-content: $justifycontentCenter;
@@ -149,6 +153,7 @@
     }
 
     /* start que hacer */
+
     .container{
         .card{
             margin: 0;
@@ -175,13 +180,7 @@
         .p-qh{
             font-size: 1.5em;
             margin: 0 40px;
-            padding: 20px;
-            text-align: justify;
-            p{
-               .text-center{
-                    display: $displayNone;
-                }
-            } 
+            text-align: center;
         }
     }
 
@@ -236,8 +235,13 @@
 
     /* Monumentos */
     .monumentos{
+        
         p{
             font-size: 1.3em;
+            text-align: justify;
+            .p-qh{
+                padding: 0;
+            }
         }
     }
 

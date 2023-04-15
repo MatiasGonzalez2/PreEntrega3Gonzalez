@@ -145,7 +145,7 @@ label {
 
 .img-carousel {
   width: 1920px;
-  height: 965px;
+  height: 860px;
   object-fit: cover;
 }
 
@@ -526,6 +526,10 @@ footer svg:hover {
 
 @media screen and (max-width: 768px) {
   /* pages */
+  .banner-header {
+    width: 100%;
+    height: 30vh;
+  }
   .nav {
     padding: 0;
   }
@@ -560,38 +564,42 @@ footer svg:hover {
   /* Carousel */
   .carousel-item .img-carousel {
     width: 1920px;
-    height: 500px;
+    height: 300px;
   }
   .carousel-item .ctn {
-    padding: 10px 30px;
-    margin-bottom: 10px;
+    display: none;
   }
   /* section 1*/
   .events .row .col .ctn {
     margin-top: 20px;
     padding: 15px 30px;
   }
-  .events h1 .title {
+  .events h1 {
     font-size: 2.5em;
   }
   .events article div p {
     font-family: "Arial", sans-serif;
+    text-align: justify;
   }
   /* section 2 */
   .explore h3 {
-    font-size: 3.5em;
+    font-size: 3em;
+    text-align: center;
   }
   .explore .explore-content {
     width: 100%;
   }
   .explore .explore-content p {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
   .explore .explore-content .ctn {
     padding: 15px 30px;
     margin-top: 20px;
   }
   /* section 3 */
+  .section-home {
+    width: 100%;
+  }
   .section-home .row {
     padding: 0;
     width: 80%;
@@ -606,12 +614,12 @@ footer svg:hover {
     padding: 15px 30px;
   }
   .section-home .row h3 {
-    font-size: 4em;
+    font-size: 3em;
   }
   .section-home .row p {
     padding: 0;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.5em;
     justify-content: center;
     text-align: justify;
     margin: 20px 0;
@@ -620,7 +628,7 @@ footer svg:hover {
     width: 100%;
   }
   .section-home .row .col img {
-    max-width: 90%;
+    max-width: 100%;
   }
   .section-home .row .col .image-gallery {
     justify-content: center;
@@ -656,11 +664,7 @@ footer svg:hover {
   .intro-qh .p-qh {
     font-size: 1.5em;
     margin: 0 40px;
-    padding: 20px;
-    text-align: justify;
-  }
-  .intro-qh .p-qh p .text-center {
-    display: none;
+    text-align: center;
   }
   /* end que hacer */
   /* start galeria */
@@ -682,6 +686,10 @@ footer svg:hover {
   /* Monumentos */
   .monumentos p {
     font-size: 1.3em;
+    text-align: justify;
+  }
+  .monumentos p .p-qh {
+    padding: 0;
   }
   /* end monumentos */
   /* start contacto */
