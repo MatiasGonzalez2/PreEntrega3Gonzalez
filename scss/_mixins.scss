@@ -1,0 +1,21 @@
+//extends
+//minuto 30 aprox
+
+//mixins
+@mixin textos ($size, $line, $color){
+    //variables locales
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+    font-family: $mainFont;//variable global
+}
+
+//p{
+//   @include textos(1.3em, 1.8em, $pColor)
+//}
+
+@mixin flex ($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+}
