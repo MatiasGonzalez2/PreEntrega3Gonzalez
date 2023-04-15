@@ -1,0 +1,21 @@
+// commons
+
+// global
+*{
+    box-sizing: border-box;
+    font-family: $mainFont;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+p{
+    font-size: 1.5em;
+    color: $pColor;
+}
+
+label{
+    font-size: 1.5em;
+    color: $pColor;
+}

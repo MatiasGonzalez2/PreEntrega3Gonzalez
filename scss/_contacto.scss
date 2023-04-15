@@ -1,0 +1,28 @@
+// contacto
+
+.contacto{
+    .row{
+        width: 90%;
+    }
+
+    .centro-turista{
+        margin-bottom: 10vh;
+        color: $pColor;
+        h2{
+            margin-top: 40px;
+        }
+        ul{
+            li{
+                font-size: 1.6em;
+            }
+        }
+    }
+
+    .i-contact{
+        display: $displayFlex;
+        align-items: $alignitemCenter;
+        justify-content: $justifycontentFlex-end;
+        margin-bottom: 40px;
+    }
+}
+

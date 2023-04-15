@@ -105,34 +105,34 @@ main div a img{
     height: 10px;
 } 
 
-.banner-nav{
+.banner-header{
     object-fit: cover;
     width: 100%;
     height: 500px;
 }
-.text-center{
+/* .text-center{
     text-align: center;
-}
+} */
 
 /* Que Hacer */
 
-.card-img{
+/* .card-img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
-.text-justify{
+/* .text-justify{
     text-align: justify;
-}
+} */
 
-.title-card-qh{
+/* .title-card-qh{
     margin-bottom: 20px;
 }
-
-.txt-m{
+ */
+/* .txt-m{
     padding: 0;
-}
+} */
 
 .intro-qh{
     margin: 50px auto;
@@ -337,16 +337,6 @@ article.monumentos div.card-body a.ctn{
 }
 
 /* Home */
-.header-home{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../img/Cdelu/118846033_1673554889469346_7723633028121315305_n.jpg);
-    background-position: bottom;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
 
 .title{
     text-align: center;
@@ -355,7 +345,7 @@ article.monumentos div.card-body a.ctn{
     margin-top: 30px;
 }
 
-.navbar-home{
+/* .navbar-home{
     position: absolute;
     top: 0;
     left: 0;
@@ -366,7 +356,7 @@ article.monumentos div.card-body a.ctn{
     color: rgb(245, 245, 245);
     align-items: center;
 }
-
+ */
 .links-home{
     display: flex;
     align-items: center;
@@ -381,7 +371,6 @@ article.monumentos div.card-body a.ctn{
 
 .header-content{
     margin-bottom: 150px;
-
     text-align: center;
 }
 
@@ -402,11 +391,11 @@ article.monumentos div.card-body a.ctn{
     border-radius: 5px;
 }
 
-.header-content h2{
+/* .header-content h2{
     font-size: 4vmin;
     margin-top: 50px;
     margin-bottom: 30px;
-}
+} */
 
 .ctn{
     padding: 10px 30px;
@@ -456,7 +445,7 @@ a.ctn:hover{
 
 .row{
     display: flex;
-    align-items: center;
+    align-items: center ;
     width: 100%;
     justify-content: center;
     padding: 0;
@@ -854,7 +843,6 @@ footer div a{
     /* Monumentos */
     .monumentos p{
         font-size: 1.3em;
-
     }
     /* end monumentos */
     /* start contacto */

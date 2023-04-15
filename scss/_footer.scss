@@ -1,0 +1,27 @@
+// footer
+
+footer{
+    width: 100%;
+    height: 150px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: $mainColor;
+    display: $displayFlex;
+    justify-content: $justifycontentCenter;
+    align-items: $alignitemCenter;
+    position: absolute;
+    div{
+        a{
+            text-decoration: none;
+        }
+    }
+    svg{
+        fill: $whitesmokeColor;
+        width: 30px;
+        &:hover{
+            fill: $pColor;
+        }
+    }
+}
+
+

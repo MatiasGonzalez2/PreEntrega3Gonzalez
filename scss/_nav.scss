@@ -1,0 +1,79 @@
+// nav
+
+// nav pages
+.botonera{
+    div{
+        display: $displayFlex;
+        justify-content: $justifycontentEnd;
+        ul{
+            li{
+                font-size: 1.5em;
+                color: $whitesmokeColor;
+                display: $displayFlex;
+                justify-content: $justifycontentCenter;
+                a{
+                    color: $whitesmokeColor;
+                    text-decoration: none;
+                    &:hover{
+                        color: $pColor;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    svg{
+        fill: $whitesmokeColor;
+        text-decoration: none;
+        &:hover{
+            fill: $pColor;
+            text-decoration: none;
+        }
+    }
+}
+
+.nav{
+    background-color:$mainColor;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: $displayFlex; 
+    justify-content: $justifycontentBetween;
+    align-items: $alignitemCenter;
+    .links-pages{
+        align-items: $alignitemCenter;
+        li{
+            margin: 0 30px;
+            height: 10px;
+        }
+    }
+    .links-home{
+        align-items: $alignitemCenter;
+        justify-content: $justifycontentCenter;
+        margin-right: 30px;
+        li{
+            margin: 10px 30px;
+        }
+    }
+    .img-logo{
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+        display: $displayFlex;
+    }
+    .img-redes{
+        width: 35px;
+        height: 35px;
+        margin-left: 10px;
+        align-items: $alignitemCenter;
+    }
+}
+
+.banner-header{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+

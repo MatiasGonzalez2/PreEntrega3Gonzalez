@@ -1,0 +1,262 @@
+// resposive
+@media screen and (max-width:768px){
+    /* pages */
+
+    .nav{
+        padding: 0;
+        .links-pages{
+            display: $displayNone;
+        }
+        .img-logo{
+            width: 70px;
+            height: 70px;
+            margin: 0 auto;
+
+        }
+    }
+
+    /* Index */
+
+    .header-content{
+        display: $displayFlex;
+        align-items: $alignitemCenter;
+        justify-content: $justifycontentCenter;
+        flex-direction: column;
+        margin: 0;
+        h2{
+            margin: 0 auto;
+        }
+        .ctn{
+            padding: 15px 30px;
+        }
+    }
+
+
+    .navbar-home{
+        padding: 0;
+        .links-home{
+            display: $displayNone;
+        }
+    }
+
+
+    
+    /* Carousel */
+    
+
+    .carousel-item {
+        .img-carousel{
+            width: 1920px;
+            height: 500px;
+        }
+        .ctn{
+            padding: 10px 30px;
+            margin-bottom: 10px; 
+        }
+    }
+
+    /* section 1*/
+
+    .events{
+        .row{
+            .col{
+                .ctn{
+                    margin-top: 20px;
+                    padding: 15px 30px;
+                }
+            }
+        }
+        h1{
+            .title{
+                font-size: 2.5em;
+            }
+        }
+        article{
+            div{
+                p{
+                    font-family: $secondaryFont;
+                }
+            }
+        }
+    }
+        
+    /* section 2 */
+    .explore{
+        h3{
+            font-size: 3.5em;
+        }
+        .explore-content{
+            width: 100%;
+            p{
+                font-size: 1.8em;
+            }
+            .ctn{
+                padding: 15px 30px;
+                margin-top: 20px;
+            }
+        }
+    }
+    
+    /* section 3 */
+
+    .section-home{
+        .row{
+            padding: 0;
+            width: 80%;
+            margin: 0 auto;
+            .content-col{
+                width: 100%;
+                margin-bottom: 30px;
+                .ctn{
+                    margin: auto;  
+                    padding: 15px 30px;
+                }
+            }    
+            h3{
+                font-size: 4em;
+            }
+            p{
+                padding: 0;
+                text-align: center;
+                font-size: 1.8em;
+                justify-content: $justifycontentCenter;
+                text-align: justify;
+                margin: 20px 0;
+            }
+            .col{
+                width:100%;
+                img{
+                    max-width: 90%;
+                }
+                .image-gallery{
+                    justify-content: $justifycontentCenter;
+                    align-items: $alignitemCenter;
+                    margin: 20px 0;
+                    display: flex;
+                    img{
+                        width: 450px;
+                        height: 450px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* end index */
+
+    footer{
+        padding: 10px;
+    }
+
+    /* start que hacer */
+    .container{
+        .card{
+            margin: 0;
+            .img-p{
+                width: 100%;
+            }
+            .card-body{
+                .title-p{
+                    font-size: 2em;
+                }
+                .ctn-qh{
+                    display: $displayFlex;
+                    justify-content: $justifycontentCenter;
+                }
+            }
+        }
+    }
+    
+
+    .intro-qh {
+        .title{
+            font-size: 2.5em;   
+        }
+        .p-qh{
+            font-size: 1.5em;
+            margin: 0 40px;
+            padding: 20px;
+            text-align: justify;
+            p{
+               .text-center{
+                    display: $displayNone;
+                }
+            } 
+        }
+    }
+
+    /* end que hacer */
+
+    /* start galeria */
+
+    #galeria{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(22,auto);
+        grid-template-areas:  
+        'fota'
+        'fotb'
+        'fotc'
+        'fotd'
+        'fote'
+        'fotf'
+        'fotg'
+        'foth'
+        'foti'
+        'fotj'
+        'fotk'
+        'fotl'
+        'fotm'
+        'fotn'
+        'foto'
+        'fotp'
+        'fotq'
+        'fotr'
+        'fots'
+        'fott'
+        'fotu'
+        'fotv';
+    }
+    main{
+        div{
+            iframe{
+                filter: none;
+            }
+            a{
+                img{
+                    filter: none;
+                }
+                video{
+                    filter: none;    
+                }
+            }
+        }
+    }
+    
+    /* end galeria */
+
+    /* Monumentos */
+    .monumentos{
+        p{
+            font-size: 1.3em;
+        }
+    }
+
+    /* end monumentos */
+
+    /* start contacto */
+    .contacto{
+        div{
+            p{
+                text-align: justify;
+            }
+        }
+        article{
+            div{
+                .centro-turista{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+    /* end contacto */
+}
