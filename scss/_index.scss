@@ -111,6 +111,13 @@
             padding: 0 ;
         }
     }
+    .line{
+        width: 200px;
+        height: 4px;
+        background: $mainColor;
+        margin: 10px auto; 
+        border-radius: 5px;
+    }
 }
 
 /* section 2 */

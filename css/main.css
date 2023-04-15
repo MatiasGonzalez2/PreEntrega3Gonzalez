@@ -192,6 +192,13 @@ label {
 .events p .card-text {
   padding: 0;
 }
+.events .line {
+  width: 200px;
+  height: 4px;
+  background: rgb(77, 94, 94);
+  margin: 10px auto;
+  border-radius: 5px;
+}
 
 /* section 2 */
 .explore {
