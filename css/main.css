@@ -1,4 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@300;400;500&display=swap");
+.ctn, .ctn-qh {
+  padding: 10px 30px;
+  background: rgb(77, 94, 94);
+  border-radius: 30px;
+  color: rgb(245, 245, 245);
+  margin-top: 30px;
+  text-decoration: none;
+}
+.ctn:hover, .ctn-qh:hover {
+  color: rgb(143, 143, 143);
+}
+
+.ctn-qh {
+  margin: 0;
+  padding: 10px 30px;
+}
+
+.line, .line-3, .line-2 {
+  width: 200px;
+  height: 4px;
+  background: rgb(77, 94, 94);
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.line-2 {
+  margin-bottom: 50px;
+}
+
+.line-3 {
+  margin-left: -1px;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Bebas Neue", sans-serif;
@@ -22,11 +55,12 @@ label {
     section{
         div{
             p{
-                @include textos(1.6em, 1.8em, $pColor)
+                @include textos(5em, 1.8em, $mainColor, center)
             }
         }
     }
-} */
+}
+ */
 .botonera div {
   display: flex;
   justify-content: End;
@@ -101,7 +135,7 @@ label {
 /* Home */
 .title {
   text-align: center;
-  font-size: 5vmin;
+  font-size: 3.5em;
   color: rgb(115, 146, 151);
   margin-top: 30px;
 }
@@ -111,31 +145,12 @@ label {
   text-align: center;
 }
 .header-content p {
-  font-size: 7vmin;
+  font-size: 4.5em;
   color: rgb(245, 245, 245);
 }
 .header-content .chico {
-  font-size: 4vmin;
+  font-size: 2.5em;
   color: rgb(245, 245, 245);
-}
-.header-content .line {
-  width: 200px;
-  height: 4px;
-  background: rgb(77, 94, 94);
-  margin: 10px auto;
-  border-radius: 5px;
-}
-
-.ctn {
-  padding: 10px 30px;
-  background: rgb(77, 94, 94);
-  border-radius: 30px;
-  color: rgb(245, 245, 245);
-  margin-top: 30px;
-  text-decoration: none;
-}
-.ctn:hover {
-  color: rgb(143, 143, 143);
 }
 
 .img-logo {
@@ -188,7 +203,7 @@ label {
 .events .row {
   margin-top: 50px;
 }
-.events .ctn {
+.events .ctn, .events .ctn-qh {
   margin-top: 50px;
 }
 .events h1 .title {
@@ -200,13 +215,6 @@ label {
 }
 .events p .card-text {
   padding: 0;
-}
-.events .line {
-  width: 200px;
-  height: 4px;
-  background: rgb(77, 94, 94);
-  margin: 10px auto;
-  border-radius: 5px;
 }
 
 /* section 2 */
@@ -231,16 +239,13 @@ label {
   flex-direction: column;
 }
 .explore .explore-content h3 {
-  font-size: 5em;
-}
-.explore .explore-content .line {
-  margin-bottom: 50px;
+  font-size: 4.5em;
 }
 .explore .explore-content p {
   color: rgb(190, 190, 190);
   padding: 0;
 }
-.explore .explore-content .ctn {
+.explore .explore-content .ctn, .explore .explore-content .ctn-qh {
   margin-top: 40px;
 }
 
@@ -249,18 +254,15 @@ label {
   width: 40%;
 }
 .section-home .content-col h3 {
-  font-size: 7vmin;
+  font-size: 4.5em;
   color: rgb(115, 146, 151);
-}
-.section-home .content-col .line {
-  margin-left: -1px;
 }
 .section-home .content-col p {
   padding: 0;
   margin-right: 30px;
   text-align: justify;
 }
-.section-home .content-col .ctn {
+.section-home .content-col .ctn, .section-home .content-col .ctn-qh {
   margin-left: 2px;
 }
 .section-home .image-col {
@@ -283,7 +285,7 @@ label {
 .intro-qh {
   margin: 50px auto;
 }
-.intro-qh .line {
+.intro-qh .line, .intro-qh .line-2, .intro-qh .line-3 {
   margin-bottom: 20px;
 }
 .intro-qh .title {
@@ -301,10 +303,6 @@ label {
   display: flex;
   margin-bottom: 20px;
   border-radius: 15px;
-}
-.contenedor-text-in .ctn {
-  margin: 0;
-  padding: 10px 30px;
 }
 
 .col-qh {
@@ -329,24 +327,24 @@ label {
 }
 .col-qh .card-text {
   font-family: "Arial", sans-serif;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 .monumentos p {
   justify-content: space-between;
   height: auto;
   font-family: "Arial", sans-serif;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
-.monumentos article div .card-body a .ctn {
+.monumentos article div .card-body a .ctn, .monumentos article div .card-body a .ctn-qh {
   margin: 0;
   display: flex;
   justify-content: center;
 }
 
-.title h1 {
+.title {
   text-align: center;
-  font-size: 6vmin;
+  font-size: 3.5em;
   color: rgb(115, 146, 151);
 }
 
@@ -561,7 +559,7 @@ footer svg:hover {
   .header-content h2 {
     margin: 0 auto;
   }
-  .header-content .ctn {
+  .header-content .ctn, .header-content .ctn-qh {
     padding: 15px 30px;
   }
   .navbar-home {
@@ -571,20 +569,29 @@ footer svg:hover {
     display: none;
   }
   /* Carousel */
+  .carousel-item .header-content {
+    margin-bottom: 25px;
+  }
+  .carousel-item p {
+    font-size: 1.5em;
+  }
+  .carousel-item .chico {
+    font-size: 1.3em;
+  }
   .carousel-item .img-carousel {
     width: 1920px;
     height: 300px;
   }
-  .carousel-item .ctn {
+  .carousel-item .ctn, .carousel-item .ctn-qh {
     display: none;
   }
   /* section 1*/
-  .events .row .col .ctn {
+  .events .row .col .ctn, .events .row .col .ctn-qh {
     margin-top: 20px;
     padding: 15px 30px;
   }
   .events h1 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .events article div p {
     font-family: "Arial", sans-serif;
@@ -601,7 +608,7 @@ footer svg:hover {
   .explore .explore-content p {
     font-size: 1.6em;
   }
-  .explore .explore-content .ctn {
+  .explore .explore-content .ctn, .explore .explore-content .ctn-qh {
     padding: 15px 30px;
     margin-top: 20px;
   }
@@ -618,7 +625,7 @@ footer svg:hover {
     width: 100%;
     margin-bottom: 30px;
   }
-  .section-home .row .content-col .ctn {
+  .section-home .row .content-col .ctn, .section-home .row .content-col .ctn-qh {
     margin: auto;
     padding: 15px 30px;
   }

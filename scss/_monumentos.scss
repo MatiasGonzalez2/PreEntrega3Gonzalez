@@ -4,7 +4,7 @@
         justify-content: $justifycontentBetween;
         height: auto;
         font-family: $secondaryFont;
-        font-size: 1.4em;
+        font-size: $textXxsm;
     }
     article{
         div{
@@ -22,11 +22,10 @@
 }
 
 .title{
-    h1{
-        text-align: $alignitemCenter;
-        font-size: 6vmin;
-        color: $secondaryColor;
-    }
+    text-align: $alignitemCenter;
+    font-size: $textXxl;
+    color: $secondaryColor;
+
 }
 
 .img-museos{

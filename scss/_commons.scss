@@ -24,9 +24,9 @@ label{
     section{
         div{
             p{
-                @include textos(1.6em, 1.8em, $pColor)
+                @include textos(5em, 1.8em, $mainColor, center)
             }
         }
     }
-} */
-
+}
+ */

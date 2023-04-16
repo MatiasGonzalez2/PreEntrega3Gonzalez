@@ -2,7 +2,7 @@
 
 .title{
     text-align: center;
-    font-size: 5vmin;
+    font-size: $textXxl;
     color: $secondaryColor;
     margin-top: 30px;
 }
@@ -11,32 +11,13 @@
     margin-bottom: 150px;
     text-align: center;
     p{
-        font-size: 7vmin;     
+        font-size: $textXxxxl;     
         color: $whitesmokeColor;
         
     }
     .chico{
-            font-size: 4vmin;
+            font-size: $textLg;
             color: $whitesmokeColor;
-    }
-    .line{
-        width: 200px;
-        height: 4px;
-        background: $mainColor;
-        margin: 10px auto; 
-        border-radius: 5px;
-    }
-}
-
-.ctn{
-    padding: 10px 30px;
-    background: $mainColor;
-    border-radius: 30px;
-    color: $whitesmokeColor;
-    margin-top: 30px;
-    text-decoration: none;
-    &:hover{
-        color: $pColor;
     }
 }
 
@@ -97,26 +78,19 @@
     }
     h1{
         .title{
-            font-size: 4em;
+            font-size: $textXxxl;
             margin-top: 40px;
         }
     }
     h2{
         .card-title{
-            font-size: 2em;
+            font-size: $textMd;
         }
     }
     p{
         .card-text{
             padding: 0 ;
         }
-    }
-    .line{
-        width: 200px;
-        height: 4px;
-        background: $mainColor;
-        margin: 10px auto; 
-        border-radius: 5px;
     }
 }
 
@@ -141,10 +115,7 @@
         align-items: $alignitemCenter;
         flex-direction: column;
         h3{
-            font-size: 5em;
-        }
-        .line{
-            margin-bottom: 50px;
+            font-size: $textXxxxl;
         }
         p{
             color: $p-exploreColor;
@@ -162,11 +133,8 @@
     .content-col{
         width: 40%;
         h3{
-            font-size: 7vmin;
+            font-size: $textXxxxl;
             color: $secondaryColor;
-        }
-        .line{
-            margin-left: -1px;
         }
         p{
             padding: 0;

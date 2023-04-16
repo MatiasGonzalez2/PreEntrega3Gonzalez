@@ -6,10 +6,10 @@
         margin-bottom: 20px;
     }
     .title{
-        font-size: 3em;
+        font-size: $textXl;
     }
     .p-qh{
-        font-size: 1.8em;
+        font-size: $textSm;
         margin: 0 70px;
     }
 }
@@ -21,11 +21,6 @@
     display: $displayFlex;
     margin-bottom: 20px;
     border-radius: 15px;
-
-    .ctn{
-        margin: 0;
-        padding: 10px 30px;
-    }
 }
 
 .col-qh{
@@ -49,7 +44,7 @@
     }
     .card-text{
         font-family: $secondaryFont;
-        font-size: 1.4em;
+        font-size: $textXxsm;
     }
 }
 

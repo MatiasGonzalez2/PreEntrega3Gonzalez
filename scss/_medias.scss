@@ -49,6 +49,16 @@
     
 
     .carousel-item {
+        .header-content{
+            margin-bottom: 25px;
+        }
+        p{
+            font-size: $textXxsm;
+            
+        }
+        .chico{
+            font-size: $textXxxsm;
+        }
         .img-carousel{
             width: 1920px;
             height: 300px;
@@ -70,7 +80,7 @@
             }
         }
         h1{
-            font-size: 2.5em;
+            font-size: $textMd;
         }
         article{
             div{
@@ -85,13 +95,13 @@
     /* section 2 */
     .explore{
         h3{
-            font-size: 3em;
+            font-size: $textXl;
             text-align: center;
         }
         .explore-content{
             width: 100%;
             p{
-                font-size: 1.6em;
+                font-size: $textXsm;
             }
             .ctn{
                 padding: 15px 30px;
@@ -117,12 +127,12 @@
                 }
             }    
             h3{
-                font-size: 3em;
+                font-size: $textXl;
             }
             p{
                 padding: 0;
                 text-align: center;
-                font-size: 1.5em;
+                font-size: $textXxsm;
                 justify-content: $justifycontentCenter;
                 text-align: justify;
                 margin: 20px 0;
@@ -162,7 +172,7 @@
             }
             .card-body{
                 .title-p{
-                    font-size: 2em;
+                    font-size: $textMd;
                 }
                 .ctn-qh{
                     display: $displayFlex;
@@ -175,10 +185,10 @@
 
     .intro-qh {
         .title{
-            font-size: 2.5em;   
+            font-size: $textLg;   
         }
         .p-qh{
-            font-size: 1.5em;
+            font-size: $textXxsm;
             margin: 0 40px;
             text-align: center;
         }
@@ -237,7 +247,7 @@
     .monumentos{
         
         p{
-            font-size: 1.3em;
+            font-size: $textXxxsm;
             text-align: justify;
             .p-qh{
                 padding: 0;
@@ -257,7 +267,7 @@
         article{
             div{
                 .centro-turista{
-                    font-size: 1em;
+                    font-size: $text1;
                 }
             }
         }
