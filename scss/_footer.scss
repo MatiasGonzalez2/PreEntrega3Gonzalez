@@ -6,9 +6,9 @@ footer{
     padding: 20px 80px;
     margin: 0;
     background-color: $mainColor;
-    display: $displayFlex;
-    justify-content: $justifycontentCenter;
-    align-items: $alignitemCenter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     div{
         a{

@@ -43,7 +43,10 @@ body, html {
 
 p {
   font-size: 1.5em;
+  line-height: 1.8em;
   color: rgb(143, 143, 143);
+  font-family: "Bebas Neue", sans-serif;
+  text-align: justify;
 }
 
 label {
@@ -51,19 +54,9 @@ label {
   color: rgb(143, 143, 143);
 }
 
-/* main{
-    section{
-        div{
-            p{
-                @include textos(5em, 1.8em, $mainColor, center)
-            }
-        }
-    }
-}
- */
 .botonera div {
   display: flex;
-  justify-content: End;
+  justify-content: end;
 }
 .botonera div ul li {
   font-size: 1.5em;
@@ -142,11 +135,11 @@ label {
 
 .header-content {
   margin-bottom: 150px;
-  text-align: center;
 }
 .header-content p {
   font-size: 4.5em;
   color: rgb(245, 245, 245);
+  text-align: center;
 }
 .header-content .chico {
   font-size: 2.5em;
@@ -303,14 +296,15 @@ label {
   display: flex;
   margin-bottom: 20px;
   border-radius: 15px;
+  overflow-x: auto;
 }
 
 .col-qh {
   flex-direction: column;
 }
 .col-qh .img-p {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   border-radius: 5px;
 }
@@ -506,6 +500,7 @@ main div iframe:hover {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  /* @include flex(flex-end, center); */
   margin-bottom: 40px;
 }
 

@@ -19,9 +19,10 @@
     }
 
     .i-contact{
-        display: $displayFlex;
-        align-items: $alignitemCenter;
-        justify-content: $justifycontentFlex-end;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; 
+        /* @include flex(flex-end, center); */
         margin-bottom: 40px;
     }
 }

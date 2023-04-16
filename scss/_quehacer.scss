@@ -14,25 +14,27 @@
     }
 }
 
+
 .contenedor-text-in{
     width: 100%;
     height: auto;
     background-color: $quehacerColor;
-    display: $displayFlex;
+    display: flex;
     margin-bottom: 20px;
     border-radius: 15px;
+    overflow-x:auto;
 }
 
 .col-qh{
     flex-direction: column;
     .img-p{
-        width: 350px;
-        height: 350px;
+        width: 400px;
+        height: 400px;
         object-fit: cover;
         border-radius: 5px;
     }
     .content-text{
-        justify-content: $justifycontentBetween;
+        justify-content: space-between;
         text-align: justify;
         margin: auto;
         padding: 15px;

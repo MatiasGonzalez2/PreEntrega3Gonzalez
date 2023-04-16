@@ -1,7 +1,7 @@
 // monumentos y museos
 .monumentos{
     p{
-        justify-content: $justifycontentBetween;
+        justify-content: space-between;
         height: auto;
         font-family: $secondaryFont;
         font-size: $textXxsm;
@@ -12,8 +12,8 @@
                 a{
                     .ctn{
                         margin: 0;
-                        display: $displayFlex;
-                        justify-content: $justifycontentCenter;
+                        display: flex;
+                        justify-content: center;
                     }
                 }
             }
@@ -22,7 +22,7 @@
 }
 
 .title{
-    text-align: $alignitemCenter;
+    text-align: center;
     font-size: $textXxl;
     color: $secondaryColor;
 

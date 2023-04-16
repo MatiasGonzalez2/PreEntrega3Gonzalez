@@ -9,7 +9,7 @@
     .nav{
         padding: 0;
         .links-pages{
-            display: $displayNone;
+            display: none;
         }
         .img-logo{
             width: 70px;
@@ -22,9 +22,9 @@
     /* Index */
 
     .header-content{
-        display: $displayFlex;
-        align-items: $alignitemCenter;
-        justify-content: $justifycontentCenter;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
         margin: 0;
         h2{
@@ -39,14 +39,11 @@
     .navbar-home{
         padding: 0;
         .links-home{
-            display: $displayNone;
+            display: none;
         }
     }
 
-
-    
     /* Carousel */
-    
 
     .carousel-item {
         .header-content{
@@ -64,7 +61,7 @@
             height: 300px;
         }
         .ctn{
-            display: $displayNone; 
+            display: none; 
         }
     }
 
@@ -133,7 +130,7 @@
                 padding: 0;
                 text-align: center;
                 font-size: $textXxsm;
-                justify-content: $justifycontentCenter;
+                justify-content: center;
                 text-align: justify;
                 margin: 20px 0;
             }
@@ -143,8 +140,8 @@
                     max-width: 100%;
                 }
                 .image-gallery{
-                    justify-content: $justifycontentCenter;
-                    align-items: $alignitemCenter;
+                    justify-content: center;
+                    align-items: center;
                     margin: 20px 0;
                     display: flex;
                     img{
@@ -175,8 +172,8 @@
                     font-size: $textMd;
                 }
                 .ctn-qh{
-                    display: $displayFlex;
-                    justify-content: $justifycontentCenter;
+                    display: flex;
+                    justify-content: center;
                 }
             }
         }

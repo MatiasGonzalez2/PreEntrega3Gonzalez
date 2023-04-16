@@ -45,19 +45,12 @@
     font-family: $mainFont;//variable global
     @if align == center{text-align: center}
     @else if $align == left {text-align: left}
-    @else if $align == right {text-align: right}
+    @else if $align == justify {text-align: justify}
 }
 
 //p{
 //   @include textos(1.3em, 1.8em, $pColor)
 //}
-
-@mixin flex ($direction, $justify, $align){
-    display: flex;
-    flex-direction: $direction;
-    align-items: $align;
-}
-
 
 //maps
 $paleta: (
