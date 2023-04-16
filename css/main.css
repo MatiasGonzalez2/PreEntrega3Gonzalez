@@ -32,6 +32,10 @@
   margin-left: -1px;
 }
 
+.bg-green {
+  background-color: rgb(77, 94, 94);
+}
+
 * {
   box-sizing: border-box;
   font-family: "Bebas Neue", sans-serif;
@@ -82,7 +86,7 @@ label {
 }
 
 .nav {
-  background-color: rgb(77, 94, 94);
+  /* background-color:$mainColor; */
   position: sticky;
   top: 0;
   left: 0;
@@ -509,7 +513,6 @@ footer {
   height: 150px;
   padding: 20px 80px;
   margin: 0;
-  background-color: rgb(77, 94, 94);
   display: flex;
   justify-content: center;
   align-items: center;

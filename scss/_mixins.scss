@@ -60,4 +60,8 @@ $paleta: (
     'cuatro': rgb(143, 143, 143),
     'cinco': rgb(207, 219, 218),
     'seis': rgb(190, 190, 190),
-)
+);
+
+.bg-green {
+    background-color: map-get($map: $paleta, $key: uno);
+}
