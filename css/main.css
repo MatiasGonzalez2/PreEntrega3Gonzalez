@@ -32,10 +32,6 @@
   margin-left: -1px;
 }
 
-.bg-green {
-  background-color: rgb(77, 94, 94);
-}
-
 * {
   box-sizing: border-box;
   font-family: "Bebas Neue", sans-serif;
@@ -58,6 +54,17 @@ label {
   color: rgb(143, 143, 143);
 }
 
+.bg-green {
+  background-color: rgb(77, 94, 94);
+}
+
+.card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .botonera div {
   display: flex;
   justify-content: end;
@@ -71,10 +78,15 @@ label {
 .botonera div ul li a {
   color: rgb(245, 245, 245);
   text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
 }
 .botonera div ul li a:hover {
-  color: rgb(143, 143, 143);
-  text-decoration: none;
+  color: rgb(245, 245, 245);
+  background-size: 100% 2px;
 }
 .botonera svg {
   fill: rgb(245, 245, 245);
@@ -332,7 +344,7 @@ label {
   justify-content: space-between;
   height: auto;
   font-family: "Arial", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .monumentos article div .card-body a .ctn, .monumentos article div .card-body a .ctn-qh {
   margin: 0;

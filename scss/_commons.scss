@@ -19,3 +19,14 @@ label{
     color: $pColor;
 }
 
+.bg-green {
+    background-color: map-get($map: $paleta, $key: uno);
+}
+
+.card p{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
