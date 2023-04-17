@@ -8,8 +8,18 @@
 
     .nav{
         padding: 0;
-        .links-pages{
-            display: none;
+        .links-home{
+            align-items: end;
+            justify-content: end;
+            flex-direction: column;
+            margin: 0;
+            .img-svg{
+                align-items: center; 
+                justify-content: center;
+            }
+            .img-redes{
+                justify-content: center;
+            }
         }
         .img-logo{
             width: 70px;
@@ -32,14 +42,6 @@
         }
         .ctn{
             padding: 15px 30px;
-        }
-    }
-
-
-    .navbar-home{
-        padding: 0;
-        .links-home{
-            display: none;
         }
     }
 

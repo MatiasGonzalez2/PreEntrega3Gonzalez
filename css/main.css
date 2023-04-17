@@ -98,7 +98,6 @@ label {
 }
 
 .nav {
-  /* background-color:$mainColor; */
   position: sticky;
   top: 0;
   left: 0;
@@ -116,7 +115,7 @@ label {
 }
 .nav .links-home {
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   margin-right: 30px;
 }
 .nav .links-home li {
@@ -564,8 +563,18 @@ footer svg:hover {
   .nav {
     padding: 0;
   }
-  .nav .links-pages {
-    display: none;
+  .nav .links-home {
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    margin: 0;
+  }
+  .nav .links-home .img-svg {
+    align-items: center;
+    justify-content: center;
+  }
+  .nav .links-home .img-redes {
+    justify-content: center;
   }
   .nav .img-logo {
     width: 70px;
@@ -585,12 +594,6 @@ footer svg:hover {
   }
   .header-content .ctn, .header-content .ctn-qh {
     padding: 15px 30px;
-  }
-  .navbar-home {
-    padding: 0;
-  }
-  .navbar-home .links-home {
-    display: none;
   }
   /* Carousel */
   .carousel-item .header-content {
