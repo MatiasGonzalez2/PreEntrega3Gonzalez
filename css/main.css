@@ -618,9 +618,13 @@ footer svg:hover {
   .events h1 {
     font-size: 2em;
   }
-  .events article div p {
+  .events article div .card-title {
+    font-size: 1.8em;
+  }
+  .events article div .card-text {
     font-family: "Arial", sans-serif;
     text-align: justify;
+    font-size: 1.5em;
   }
   /* section 2 */
   .explore h3 {
@@ -631,7 +635,7 @@ footer svg:hover {
     width: 100%;
   }
   .explore .explore-content p {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
   .explore .explore-content .ctn, .explore .explore-content .ctn-qh {
     padding: 15px 30px;

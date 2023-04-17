@@ -81,9 +81,13 @@
         }
         article{
             div{
-                p{
+                .card-title{
+                    font-size: $textSm;
+                }
+                .card-text{
                     font-family: $secondaryFont;
                     text-align: justify;
+                    font-size: $textXxsm;
                 }
             }
         }
@@ -98,7 +102,7 @@
         .explore-content{
             width: 100%;
             p{
-                font-size: $textXsm;
+                font-size: $textXxsm;
             }
             .ctn{
                 padding: 15px 30px;
