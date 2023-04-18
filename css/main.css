@@ -569,6 +569,10 @@ footer svg:hover {
     flex-direction: column;
     margin: 0;
   }
+  .nav .links-home div {
+    margin: auto;
+    margin-bottom: 20px;
+  }
   .nav .links-home .img-svg {
     align-items: center;
     justify-content: center;
